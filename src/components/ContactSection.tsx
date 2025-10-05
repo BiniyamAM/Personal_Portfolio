@@ -92,7 +92,9 @@ export const ContactSection = () => {
                 <h4 className="font-medium mb-4">Follow Me</h4>
                 <div className="flex gap-3">
                   <Button variant="outline" size="icon" className="hover:scale-110 transition-smooth">
-                    <Github className="w-5 h-5" />
+                    <a href="https://github.com/BiniyamAM" target="_blank" rel="noopener noreferrer">
+                      <Github className="w-5 h-5" />
+                    </a>
                   </Button>
                   <Button variant="outline" size="icon" className="hover:scale-110 transition-smooth">
                     <Linkedin className="w-5 h-5" />
